@@ -43,7 +43,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Jonas Schmedmann',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Web Developer, Designer, and Teacher',
     },
@@ -133,7 +132,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Jonas Schmedmann',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Bootcamp Instructor',
     },
@@ -554,7 +552,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Hussian Nasser',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Software Engineer, Author',
     },
@@ -659,7 +656,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Jonas Schmedmann',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Web Developer, Designer, and Teacher',
     },
@@ -970,7 +966,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Stephen Grider',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Full-Stack Developer and Instructor',
     },
@@ -1064,7 +1059,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Mumshad Mannambeth',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'DevOps Engineer and Kubernetes Expert',
     },
@@ -1157,7 +1151,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Stephen Maarek',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'AWS Solutions Architect and Cloud Expert',
     },
@@ -1358,7 +1351,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Abhishek Veeramalla',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'DevOps Engineer and Cloud Architect',
     },
@@ -1451,7 +1443,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Scott Duffy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Azure Administrator and Cloud Expert',
     },
@@ -1544,7 +1535,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Bryan Krausen',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -1637,7 +1627,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Imran Afzal',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -1730,7 +1719,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Stephen Maarek',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -1823,7 +1811,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'In28Minutes Officel Ranga Karanam',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -1917,7 +1904,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Dr. Angela Yu',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2010,7 +1996,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Ed Donner, ligency',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2103,7 +2088,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Jose Portilla, Pierian Training',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2196,7 +2180,6 @@ export const courses = [
 
     instructorDetails: {
       name: '365 Careers',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2289,7 +2272,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Krish Naik',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2382,7 +2364,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Kirill Eremenko',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2475,7 +2456,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Maven Analytics',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2568,7 +2548,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Academind by Maxmillian',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2661,7 +2640,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Hitesh Choudhary',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2754,7 +2732,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Jose Portilla, Pierian Training',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2848,7 +2825,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Andrew Tyranowaski',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -2941,7 +2917,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Mosh Hamedani',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3034,7 +3009,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Ivan Lourenco Gomes',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3127,7 +3101,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Fabian & Paven Coding2Go',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3220,7 +3193,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Brad Traversy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3313,7 +3285,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Academind by Maxmillian',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3406,7 +3377,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Anthony Alicea',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3499,7 +3469,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Colt Steele, Stephen Grider',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3592,7 +3561,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Hemanth Kumar',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3685,7 +3653,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Andre lacono',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -3771,7 +3738,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Asim Hussain',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -3819,7 +3785,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Maximilian Schwarzmüller',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -3868,7 +3833,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Mosh Hamedani',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -3916,7 +3880,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Irfan Dayan',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -3965,7 +3928,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Anthony Alicea',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4014,7 +3976,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Steven Hancock',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4064,7 +4025,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Brad Traversy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4113,7 +4073,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Cassidy Williams',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4162,7 +4121,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Edwin Diaz | 900,000+ Students, Coding Faculty Solutions',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4211,7 +4169,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Happy Rawat',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4264,7 +4221,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Burak Orkmez',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4349,7 +4305,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Haris Ali Khan',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: null,
     },
@@ -4401,7 +4356,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Manik (Clouddaffle)',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4494,7 +4448,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Development Island (UK)',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4587,7 +4540,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Evan Kimbrell',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4680,7 +4632,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Gregory John',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4773,7 +4724,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Trevor Sawler',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4866,7 +4816,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Rahual Sahy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -4959,7 +4908,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Bobby Davis, Jr',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -5052,7 +5000,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Nitesh Sharma',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Cloud Engineer and Instructor',
     },
@@ -5146,7 +5093,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Colt steele',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5240,7 +5186,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Kadhiravan',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5333,7 +5278,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Elshad Karimov',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5426,7 +5370,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Ashutosh Pawar',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5519,7 +5462,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Abid Malik',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5613,7 +5555,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Faisal Memon',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5706,7 +5647,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Tharun Challa',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5799,7 +5739,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Holczer Balazs',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5893,7 +5832,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Reece Kenney',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -5986,7 +5924,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Vertex Academy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6080,7 +6017,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Brad Traversy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6173,7 +6109,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Fatah Gabrial',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6266,7 +6201,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Brad Hussy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6359,7 +6293,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Pamch Tutor',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6452,7 +6385,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Colt Steele',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6545,7 +6477,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Tim Buchalka',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6638,7 +6569,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Oak Academy',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6731,7 +6661,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Setfan Omerovic',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6824,7 +6753,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Phil Ebiner',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },
@@ -6925,7 +6853,6 @@ export const courses = [
 
     instructorDetails: {
       name: 'Web Coding',
-      image: 'images/instructor-images/jonas__instructor.png',
       rating: null,
       role: 'Developer and Instructor',
     },

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Details - Udemy Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/course.css" />
+  </head>
+  <body>
+    <!------ Page Message ------->
+    <div class="message-container"></div>
+
+    <!------ Header ------->
+    <header></header>
+
+    <main class="course-page">
+      <!------ Course Hero Section ------->
+      <section class="course-header" id="courseHeader">
+        <div class="container">
+          <div class="course-header-content">
+            <div class="course-info">
+              <div class="course-breadcrumbs" id="courseBreadcrumbs">
+                <a href="index.html">Development</a> >
+                <a href="#">Web Development</a> >
+                <a href="#">CSS</a>
+              </div>
+              <h1 class="course__title" id="courseTitle"></h1>
+              <div
+                class="course__details--description"
+                id="courseDetaisDescription"
+              ></div>
+              <div class="course-state" id="courseState"></div>
+              <div class="course-instructor">
+                <span>Created by</span>
+                <a href="#" id="instructorName"> </a>
+              </div>
+              <span class="update-date" id="updateDate"></span>
+            </div>
+            <div class="course-card">
+              <div class="course__video--container">
+                <img
+                  src=""
+                  alt=""
+                  id="courseImage"
+                  class="course-preview-image"
+                />
+
+                <div class="play-button">
+                  <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    />
+                    <polygon points="10,8 16,12 10,16" fill="currentColor" />
+                  </svg>
+                </div>
+              </div>
+              <div class="card__tabs">
+                <button class="tab active">Personal</button>
+                <button class="tab">Team</button>
+              </div>
+              <div class="card-content">
+                <span>This Premium course is included in plans</span>
+                <h1>Subscribe to Udemy’s top courses</h1>
+                <div>
+                  Get this course, plus 26,000+ of our top-rated courses, with
+                  Personal Plan. <a href="#">Learn more</a>
+                </div>
+                <button class="Learn-plan">
+                  <a href="#">Try Personal Plan For Free</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="general-container">
+        <div class="left-container">
+          <div class="about-course">
+            <div class="course-contianer">
+              <div class="course-btn" id="aboutCourseBtn">
+                <span>Premium</span>
+              </div>
+              <div class="about-deatails">
+                <span class="span"
+                  ><span>
+                    Access this top-rated course, plus 26,000+ more top-rated
+                    courses, with a Udemy plan</span
+                  >
+                  <a href="#"> See Plans & Pricing</a>
+                </span>
+              </div>
+              <div class="separater"></div>
+              <div class="about__course-rating">
+                <div class="course-rating-number">
+                  <span class="rating-number" id="ratingNumber"></span>
+                  <span class="rating-stars" id="ratingStars"></span>
+                  <a href="#" class="rating-count" id="ratingCount"></a>
+                </div>
+              </div>
+              <div class="separater-1"></div>
+              <div class="learners">
+                <div class="learners-number">
+                  <span></span>
+                </div>
+                <span>Learners</span>
+              </div>
+            </div>
+          </div>
+          <section class="course-information" id="courseInformation">
+            <div class="course__details--container">
+              <div class="course__details--left">
+                <h1>What you'll learn</h1>
+                <ul class="learning-points-left"></ul>
+              </div>
+              <div class="course__details--right">
+                <ul class="learning-points-right"></ul>
+              </div>
+            </div>
+          </section>
+          <div class="course-includes">
+            <h3>This course includes:</h3>
+            <div class="include-container">
+              <div class="include-left">
+                <ul class="included-list"></ul>
+              </div>
+              <div class="include-right">
+                <ul class="included-list"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="course__content--sections">
+            <h2>Course content</h2>
+            <div class="content__summary--container">
+              <div class="course__content--summary">
+                <span class="total-sections" id="totalSections"></span>
+                <span class="total-lectures" id="totalLectures"></span>
+                <span class="length" id="courseLength"></span>
+              </div>
+              <button class="expand-btn">Expand all section</button>
+            </div>
+            <div class="course__content-list" id="courseContentList"></div>
+          </div>
+          <!-- <div class="requirements">
+            <h2>Requirements</h2>
+            <ul class="requirements-list" id="requirementsList ">
+              <li>No coding or design experience necessary</li>
+              <li>Any computer works — Windows, macOS or Linux</li>
+              <li>
+                You don’t need to buy any software — we will use the best free
+                code editor in the world
+              </li>
+            </ul>
+          </div> -->
+          <!-- <div class="description-section">
+            <h2>Description</h2>
+            <div
+              class="course__description--full"
+              id="courseDescriptionFull"
+            ></div>
+            <div class="intended__student--section">
+              <h2>Who this course is for:</h2>
+              <ul class="intended-list" id="intendedList ">
+                <li>
+                  Complete beginners who want to learn how to build a
+                  professional, beautiful and responsive website
+                </li>
+                <li>
+                  Students with some knowledge about HTML and CSS, but who
+                  struggle to put together a great website
+                </li>
+                <li>
+                  Designers who want to expand their skill set into HTML5 and
+                  CSS3
+                </li>
+              </ul>
+            </div>
+          </div> -->
+          <!-- <section class="student__also--bought">
+            <h2>Students also bought</h2>
+            <a href="#" class="bought__course-container">
+              <div class="related__course--img">
+                <img
+                  width="64"
+                  height="64"
+                  src="images/bootstrap/bootsrap-4.png"
+                  alt="course-image"
+                />
+              </div>
+              <div>
+                <div class="course-title">
+                  100 Hours Web Development Bootcamp - Build 23 React Projects
+                </div>
+                <div class="course__info">
+                  <button class="btn-premium">Premium</button>
+                  <span class="course__hours">128 total hours</span>
+                  <span class="update__date">Updated 7/2025</span>
+                </div>
+              </div>
+              <div class="course_rating">
+                <div class="rating_number">4.5</div>
+                <span class="rating_count">8,078</span>
+                <span class="original_price">$19.99</span>
+              </div>
+            </a>
+          </section> -->
+          <section class="instructor__other--courses" id="instructorCourses">
+            <h2>
+              More Course by
+              <a
+                class="course__instructor--name instructor__name-more"
+                href="#"
+                id="instructorNameForTitle"
+              >
+              </a>
+            </h2>
+            <div class="instructor__courses-grid" id="instructorGrid"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <section class="footer-section"></section>
+
+    <script type="module" src="js/datastore.js"></script>
+    <script type="module" src="js/course.js"></script>
+    <script type="module" src="js/templates.js"></script>
+  </body>
+</html>

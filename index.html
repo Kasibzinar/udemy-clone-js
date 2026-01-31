@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Courses - Learn Anything, On Your Schedule</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!------ Page Message ------->
+    <div class="message-container"></div>
+
+    <!------ Header ------->
+    <header></header>
+
+    <!------------ Search Results Section -------------->
+    <section class="search-section" id="search-section" style="display: none">
+      <div class="container">
+        <div class="search-results-header">
+          <h2 class="search-results-title">
+            Search Results: <span class="search-query-text"></span>
+          </h2>
+          <p class="search-results-count">
+            <span class="results-count">0</span> results found
+          </p>
+        </div>
+
+        <div class="search-results-container">
+          <div class="search-courses-grid" id="search-courses-grid"></div>
+
+          <!-- Pagination Info with buttons -->
+          <div class="search-pagination-info">
+            <button
+              class="search-slider-btn search-btn-left"
+              aria-label="Previous page"
+              id="search-prev-btn"
+              style="display: none"
+            >
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  d="M15 6L9 12L15 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+
+            <span class="pagination-text">
+              Page <span class="current-page">1</span> of
+              <span class="total-pages">1</span>
+            </span>
+
+            <button
+              class="search-slider-btn search-btn-right"
+              aria-label="Next page"
+              id="search-next-btn"
+              style="display: none"
+            >
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  d="M9 6L15 12L9 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hide-container">
+      <!------ User Profile View Container ------->
+      <div class="welcome">
+        <div class="user-profile">
+          <div class="avator-view first-view">KZ</div>
+        </div>
+        <div class="user-career">
+          <h2 class="welcome-message">Welcome back, Kasib</h2>
+          <div>
+            <span>Web Developer</span>
+            <a href="#" class="edit">Edit occupation and interests</a>
+          </div>
+        </div>
+      </div>
+
+      <!-------- Hero / Testimonials --------->
+      <div class="hero-slider">
+        <section class="hero-section">
+          <img src="" alt="hero image" />
+          <div class="text-cart">
+            <h3 class="cart-title"></h3>
+            <p class="cart__text-explain"></p>
+            <a href="#" class="btn-cart"></a>
+          </div>
+        </section>
+        <button
+          class="hero-btn slider__btn btn-left"
+          aria-label="Previous slide"
+        >
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M15 6L9 12L15 18"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button class="hero-btn slider__btn btn-right" aria-label="Next slide">
+          <svg
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              d="M9 6L15 12L9 18"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!------------ Recommended Section -------------->
+      <section class="course-section" id="recommended__section"></section>
+
+      <!------------ Cloud Engineers Section -------------->
+      <section class="course-section" id="cloudEngineers__section"></section>
+
+      <!------------ Top Pick Up  -------------->
+      <section class="top-section">
+        <a href="#" class="top__section--link">
+          <img
+            src="images/main-images/linux-commands.png"
+            alt="linux commands course"
+          />
+
+          <div class="top-course-details">
+            <h1 class="course-name">Linux Command Line: From Zero to Hero</h1>
+            <p class="course-description">
+              Learning Linux is not just watching nicely made videos. It
+              includes knowledge checks, tests, practice. All here!
+            </p>
+            <a href="#" class="instructor">By Pragmatic Programmer.</a>
+            <p class="course-details">
+              <a href="#" class="update-date"
+                >Updated <strong>April 2025</strong></a
+              >
+              6 total hours _ 59 lectures _ All Levels
+            </p>
+            <div class="course-rating">
+              <a href="#" class="rating-number">4.5</a>
+              <a href="#" class="rating-stars">★★★★</a>
+              <a href="#" class="rating-count">(1,176)</a>
+              <a href="#" class="btn-premium">Premium</a>
+            </div>
+            <a href="#" class="original-price">$59.99</a>
+          </div>
+        </a>
+      </section>
+
+      <!------------ Trending Section -------------->
+      <section class="course-section" id="trending__section"></section>
+
+      <!------------ Featured Section -------------->
+      <section class="course-section" id="featured__section"></section>
+
+      <!------------ For Web Designer Section -------------->
+      <section class="course-section" id="webDesigner__section"></section>
+    </div>
+    <section class="footer-section"></section>
+
+    <script type="module" src="js/datastore.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/templates.js"></script>
+  </body>
+</html>

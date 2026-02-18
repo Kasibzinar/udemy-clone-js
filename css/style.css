@@ -398,6 +398,37 @@ ul li {
   margin-top: 0.6rem;
 }
 
+/* Small meta row for course duration and hands-on indicator */
+.course-meta {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0.6rem;
+  font-size: 1.3rem;
+  color: #58606a;
+}
+.course-meta-item {
+  background: #f1f5f9;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1.2rem;
+  display: inline-block;
+}
+.hands-on-practice {
+  background: #e6f4ea;
+  color: #1f7a3a;
+  font-weight: 500;
+}
+
+/* Search result extra label */
+.search-course-detail-item.hands-on {
+  background: #e6f4ea;
+  color: #1f7a3a;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.6rem;
+  font-weight: 500;
+}
+
 .original-price,
 .course-title {
   color: oklch(0.2974 0.0362 281.74);
@@ -696,9 +727,289 @@ ul li {
 /**** SEARCH RESULTS SECTION **/
 /******************************/
 
+.filtering-type {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.filtering-type button {
+  background: none;
+  padding: 1.2rem 1.8rem;
+  border: 1px solid oklch(86.72% 0.0192 282.72);
+  border-radius: 1.8rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.filtering-type button.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+.filtering-type button:hover {
+  background: #eee;
+}
+
+.filtering-type button.active:hover {
+  background: #3a3737;
+}
+
+/* Applied filters chips bar */
+.applied-filters-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.6rem;
+}
+
+.applied-filters {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.applied-filters .chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.55rem 1rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  border-radius: 999px;
+  border: 1px solid #d1d7dc;
+  background: #f7f9fa;
+  color: #2a2b3f;
+}
+
+.applied-filters .chip--empty {
+  opacity: 0.8;
+}
+
+.clear-applied-filters {
+  background: none;
+  padding: 0.9rem 1.4rem;
+  border: 1px solid #d1d7dc;
+  border-radius: 1.8rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.clear-applied-filters:hover {
+  background: #eee;
+}
+
+.clear-applied-filters:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Filter Dropdown Styles */
+.filter-dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-dropdown {
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 0;
+  background: #fff;
+  border: 1px solid #d1d7dc;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.15);
+  min-width: 20rem;
+  z-index: 1000;
+  display: none;
+  padding: 1.2rem 0;
+  margin-top: 0.4rem;
+}
+
+.filter-dropdown.active {
+  display: block;
+}
+
+.filter-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 1.4rem;
+  user-select: none;
+}
+
+.filter-option:hover {
+  background-color: #f7f9fa;
+}
+
+.filter-option input[type="checkbox"] {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1.2rem;
+  cursor: pointer;
+  accent-color: #5624d0;
+}
+
+.filter-option span {
+  flex: 1;
+  color: #2a2b3f;
+}
+
+/* ============================ */
+/* Udemy-style Filters Sidebar  */
+/* ============================ */
+
+.filters-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 2000;
+}
+
+.filters-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.filters-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: min(420px, 92vw);
+  background: #fff;
+  box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.25);
+  transform: translateX(-105%);
+  transition: transform 0.25s ease;
+  z-index: 2100;
+  display: flex;
+  flex-direction: column;
+}
+
+.filters-sidebar.active {
+  transform: translateX(0);
+}
+
+.filters-sidebar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 1.8rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.filters-sidebar__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2a2b3f;
+}
+
+.filters-sidebar__close {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 50%;
+  border: 1px solid #d1d7dc;
+  background: #fff;
+  cursor: pointer;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #2a2b3f;
+}
+
+.filters-sidebar__close:hover {
+  background: #f7f9fa;
+}
+
+.filters-sidebar__content {
+  padding: 1.6rem 1.8rem;
+  overflow: auto;
+  flex: 1;
+}
+
+.filters-group {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.filters-group__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2a2b3f;
+  margin-bottom: 1.2rem;
+}
+
+.filters-group__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.filter-option--radio input[type='radio'] {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1.2rem;
+  cursor: pointer;
+  accent-color: #5624d0;
+}
+
+.filters-sidebar__footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1.4rem 1.8rem;
+  border-top: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+.filters-sidebar__clear,
+.filters-sidebar__apply {
+  padding: 1.2rem 1.4rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.filters-sidebar__clear {
+  background: #fff;
+  border: 1px solid #2a2b3f;
+  color: #2a2b3f;
+}
+
+.filters-sidebar__clear:hover {
+  background: #f7f9fa;
+}
+
+.filters-sidebar__apply {
+  background: #111;
+  border: 1px solid #111;
+  color: #fff;
+}
+
+.filters-sidebar__apply:hover {
+  background: #3a3737;
+}
+
 .search-section {
-  padding: 4.8rem 4.8rem;
+  padding: 4.8rem;
   margin: 4rem auto;
+  margin-top: 0;
+  padding-top: 3rem;
   background-color: #fff;
 }
 
@@ -717,6 +1028,7 @@ ul li {
 .search-results-count {
   font-size: 1.4rem;
   color: #6a6f73;
+  margin-bottom: 1rem;
 }
 
 .results-count {

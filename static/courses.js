@@ -13,14 +13,17 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/html-css.png',
+    language: 'English', // Course language
 
     category: 'Development',
     subcategory: 'Programming Languages',
     tags: ['development', 'programming-languages', 'html', 'css', 'responsive'],
     badge: ['Premium', 'Bestseller'],
 
+    courseFeatures: ['quizzes', 'coding-exercises', 'projects'],
+
     details: {
-      totalHours: 37,
+      totalHours: 71,
       level: 'all-levels',
       shortDescription:
         'Build beautiful, responsive websites with HTML and CSS. Master modern web design techniques and create real-world projects.',
@@ -38,6 +41,10 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
+        hasCodingExercises: true,
+        hasPracticeTests: false,
+        hasRolePlays: false,
       },
     },
 
@@ -80,6 +87,10 @@ export const courses = [
         '18 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '30 coding exercises',
+        '15 practice tests',
+        '20 quizzes',
+        'Quiz assignments', 
       ],
       content: {
         totalSections: 12,
@@ -102,6 +113,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/js.png',
+    language: 'English', // Course language
 
     category: 'Development',
     subcategory: 'Programming Languages',
@@ -127,6 +139,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -154,6 +168,7 @@ export const courses = [
         '18 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '25 quizzes',
       ],
       content: {
         totalSections: 12,
@@ -189,6 +204,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/web-botcamp.png',
+    language: 'Spanish', // Course language (Español)
 
     category: 'Development',
     subcategory: 'Web Development',
@@ -224,6 +240,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -257,6 +275,7 @@ export const courses = [
         '94 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '30 quizzes',
       ],
       content: {
         totalSections: 74,
@@ -317,6 +336,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/max-js.png',
+    language: 'Portuguese', // Course language (Português)
 
     category: 'Development',
     subcategory: 'Programming Languages',
@@ -343,6 +363,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -376,6 +398,7 @@ export const courses = [
         '696  downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '20 quizzes',
       ],
       content: {
         totalSections: 36,
@@ -417,6 +440,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/backend-fundementals.png',
+    language: 'French', // Course language (Français)
 
     category: 'Development',
     subcategory: 'Backend Development',
@@ -444,6 +468,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
       },
     },
 
@@ -477,6 +502,7 @@ export const courses = [
         '37 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '10 quizzes',
       ],
       content: {
         totalSections: 8,
@@ -522,6 +548,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/network-fundemantals.png',
+    language: 'German', // Course language (Deutsch)
 
     category: 'Development',
     subcategory: 'Backend Development',
@@ -547,6 +574,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
       },
     },
 
@@ -624,6 +652,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/nodejs.png',
+    language: 'English', // Course language
 
     category: 'Development',
     subcategory: 'Web Development',
@@ -651,6 +680,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -729,6 +759,7 @@ export const courses = [
     originalPrice: null,
     discount: null,
     image: 'images/recommended-images/probibilty.png',
+    language: 'Spanish', // Course language (Español)
 
     category: 'Development',
     subcategory: 'Data Science',
@@ -961,6 +992,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
       },
     },
 
@@ -993,6 +1025,7 @@ export const courses = [
         '18 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '12 quizzes',
       ],
       content: {
         totalSections: 14,
@@ -1054,6 +1087,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
+        hasPracticeTests: true,
       },
     },
 
@@ -1086,6 +1121,7 @@ export const courses = [
         '20 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '15 quizzes',
       ],
       content: {
         totalSections: 18,
@@ -1146,6 +1182,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasQuizzes: true,
+        hasPracticeTests: true,
       },
     },
 
@@ -1178,6 +1216,7 @@ export const courses = [
         '18 downloadable resources',
         'Access on mobile and TV',
         'Certificate of completion',
+        '18 quizzes',
       ],
       content: {
         totalSections: 25,
@@ -1438,6 +1477,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasPracticeTests: true,
       },
     },
 
@@ -1530,6 +1570,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasPracticeTests: true,
       },
     },
 
@@ -1714,6 +1755,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasPracticeTests: true,
       },
     },
 
@@ -1806,6 +1848,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasRolePlays: true,
       },
     },
 
@@ -1899,6 +1942,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasCodingExercises: true,
+        hasRolePlays: true,
       },
     },
 
@@ -2083,6 +2128,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -2451,6 +2497,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasRolePlays: true,
       },
     },
 
@@ -2543,6 +2590,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -2727,6 +2775,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -4020,6 +4069,7 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasCodingExercises: true,
       },
     },
 
@@ -4164,6 +4214,8 @@ export const courses = [
         lifetimeAccess: true,
         mobileAccess: true,
         certificate: true,
+        hasPracticeTests: true,
+        hasRolePlays: true,
       },
     },
 

@@ -151,29 +151,24 @@ function loadCoursePage() {
   learningPointsLeft.innerHTML = renderPoints(leftPoints);
   learningPointsRight.innerHTML = renderPoints(rightPoints);
 
-  if (courseIncludedLists.length > 0 && courseDetails.features) {
-    const includes = [];
-    if (courseDetails.features.lifetimeAccess) includes.push('Lifetime access');
-    if (courseDetails.features.mobileAccess)
-      includes.push('Access on mobile and TV');
-    if (courseDetails.features.certificate)
-      includes.push('Certificate of completion');
-    if (courseDetails.totalHours)
-      includes.push(`${courseDetails.totalHours} hours on-demand video`);
+  if (courseIncludedLists.length > 0) {
+    const extendedIncludes = course.extendedDetails?.includes || [];
 
-    const midIncludes = Math.ceil(includes.length / 2);
+    if (extendedIncludes.length > 0) {
+      const midIncludes = Math.ceil(extendedIncludes.length / 2);
 
-    if (courseIncludedLists[0])
-      courseIncludedLists[0].innerHTML = includes
-        .slice(0, midIncludes)
-        .map(item => `<li class="includes-item">${item}</li>`)
-        .join('');
+      if (courseIncludedLists[0])
+        courseIncludedLists[0].innerHTML = extendedIncludes
+          .slice(0, midIncludes)
+          .map(item => `<li class="includes-item">${item}</li>`)
+          .join('');
 
-    if (courseIncludedLists[1])
-      courseIncludedLists[1].innerHTML = includes
-        .slice(midIncludes)
-        .map(item => `<li class="includes-item">${item}</li>`)
-        .join('');
+      if (courseIncludedLists[1])
+        courseIncludedLists[1].innerHTML = extendedIncludes
+          .slice(midIncludes)
+          .map(item => `<li class="includes-item">${item}</li>`)
+          .join('');
+    }
   }
 
   const courseContent = course.extendedDetails?.content;
